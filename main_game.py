@@ -313,7 +313,7 @@ while running:
         enemy_spawn_timer = 0  # Reset spawn timer
         
          # Spawn boss after 50 enemies shot
-    if enemy_shot_count >= 5 and not boss_spawned:
+    if enemy_shot_count >= 50 and not boss_spawned:
         bossX = (screen_width - boss_width) / 2
         boss_health = 15
         boss_active = True
